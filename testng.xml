@@ -1,0 +1,16 @@
+<suite name="MobileAutomationSuite">
+    <test name="Android">
+        <parameter name="platform" value="android"/>
+        <classes>
+            <class name="com.mobile.framework.tests.LoginTest"/>
+            <class name="com.mobile.framework.tests.HomePageTest"/>
+        </classes>
+    </test>
+    <test name="iOS">
+        <parameter name="platform" value="ios"/>
+        <classes>
+            <class name="com.mobile.framework.tests.LoginTest"/>
+            <class name="com.mobile.framework.tests.HomePageTest"/>
+        </classes>
+    </test>
+</suite>
