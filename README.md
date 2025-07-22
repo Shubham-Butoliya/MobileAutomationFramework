@@ -3,6 +3,8 @@
 This is a modular and extensible test automation framework for Android and iOS applications using **Appium**, **TestNG**, and **Page Object Model (POM)** design. It includes support for **Extent Reports**, **screenshot capture**, **retry logic**, and more.
 
 ---
+## ⭐ Star this repo if you find it useful!
+
 
 ## 🚀 Features
 
@@ -30,6 +32,7 @@ This is a modular and extensible test automation framework for Android and iOS a
 - **src/test/java**
   - com.mobile.framework.listeners &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# TestNG Listeners (Extent, Retry, Skip, etc.)
   - com.mobile.framework.test &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# test case
+  - com.mobile.framework.testUtils &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# assertion utility
 
 - **src/test/resources**
   - app &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# keep testing applications

@@ -11,7 +11,6 @@ import org.testng.ITestResult;
 
 public class TestListener implements ITestListener {
     public void onTestStart(ITestResult result) {
-//        ExtentManager.createTest(result.getMethod().getMethodName());
         ITestContext context = result.getTestContext();
         String platform = (String) context.getAttribute("platform");
 
